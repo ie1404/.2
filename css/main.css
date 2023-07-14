@@ -4,14 +4,14 @@
 }
 
 .header{
-    background-color: #f1f1f1;
+    background-color: #BCC6CC;
     width: 100%;  
 }
 
 body{
     /* margin: auto;
     max-width:1200px; */
-    background-color: gray;   
+    background: linear-gradient(to right ,whitesmoke,rgb(60, 60, 60));
 }
 
 .menu {
@@ -95,14 +95,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background: linear-gradient(to right ,whitesmoke,rgb(60, 60, 60));
+    border-radius: 50px;
 }
 
 .images img {
     width: 300px;
     height: 200px;
     margin-top: 1rem;
+    border-radius: 50px;
+    
 }
+
 
 .footer{
     background-color: #f1f1f1;
@@ -128,7 +132,7 @@ body{
 }
 
 .tours h2{
-    text-align: left;
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -138,7 +142,7 @@ body{
     gap: 1rem;
     align-items: center;
     margin: auto;
-    background-color: bisque;
+    /* background-color: bisque; */
     
     
 }
@@ -160,9 +164,16 @@ body{
 .tour-desc button{
     width: 100px;
     height: 100px;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-right:40px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.tour-desc button:hover{
     background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.968); 
 }
 
 
@@ -175,7 +186,7 @@ body{
     height: 427px;
     width: 640px;
     overflow: hidden;
-    border: 1px saddlebrown solid;
+    border: 1px rgb(81, 81, 81) solid;
     /* box-shadow: 20px hsl(0, 0%,3%);
     z-index: -1; */
 }
